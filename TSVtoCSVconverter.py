@@ -57,7 +57,7 @@ window.geometry("600x400")
 
 #creating and configuring the buttons and textbox
 
-tsvbutton = tk.Button(window, text="Select", command = tsvpath)
+tsvbutton = tk.Button(window, text="Choose file", command = tsvpath)
 tsvbutton.place(relx = "0.43", rely = "0.05")
 
 convertbutton = tk.Button(window, text="Convert", command = conversion)
