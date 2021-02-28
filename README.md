@@ -1,5 +1,5 @@
 # TSV to CSV converter
-This program written in Python converts any TSV file to CSV. If your file is really big, the program will go slower, but it will work.
+This program written in Python converts any TSV file to CSV.
 
 ## How it works
 
