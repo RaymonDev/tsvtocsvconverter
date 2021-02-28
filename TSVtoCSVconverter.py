@@ -20,7 +20,7 @@ def tsvpath():
     global pathtotsv
     global nameofile
 
-    pathtotsv =  filedialog.askopenfilename(initialdir ="/", title ="Select file", filetypes = (("TSV Files", "*.tsv"), ("CSV Files", "*.csv"), ("All files", "*.*")))
+    pathtotsv =  filedialog.askopenfilename(initialdir ="/", title ="Select file", filetypes = (("TSV Files", "*.tsv"), ("All files", "*.*")))
     prev= os.path.basename(pathtotsv) # filters the name of the file
     nameofile = os.path.splitext(prev)[0] #splits the name into the name and the extension and grabs the name only
 
